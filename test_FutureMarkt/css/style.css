@@ -109,7 +109,7 @@ body::after {
     background-size:  auto 80%;
     background-repeat: no-repeat;
     background-position: right 11% bottom;
-    z-index: -1; /* Установка z-index для размещения изображения под остальным контентом */
+    z-index: -1; 
   }
 
 .header {
