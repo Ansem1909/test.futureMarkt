@@ -68,7 +68,6 @@
 :root {
   --white-color: #FFFFFF;
   --dark-blue: #0F1D45;
-
 }
 
 body {
@@ -226,6 +225,7 @@ a {
   font-size: 18px;
   color: var(--white-color);
 }
+
 
 /* basis */
 
@@ -401,8 +401,7 @@ a {
   font-weight: 400;
   opacity: 0.6;
   width: 100%;
-  transition: color .3s ease-in-out;
-  
+  transition: color .3s ease-in-out; 
 }
 
 .form_input:hover,
