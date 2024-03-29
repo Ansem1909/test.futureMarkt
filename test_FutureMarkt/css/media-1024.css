@@ -1,0 +1,414 @@
+@media (max-width: 1800px) {
+  .basis__btn {
+    padding: 17px 5px 1px 16px;
+  }
+}
+
+@media (max-width: 1720px) {
+  .btn_text {
+    font-size: 16px;
+  }
+
+  .btn_svg {
+    width: 17px;  
+  }
+}
+
+
+@media (max-width: 1570px) {
+  .btn_text {
+    display: none;
+  }
+
+  .btn_text__mini {
+    display: block;
+  }
+
+  .popup {
+    width: 42%;
+  } 
+
+  .btn_popup {  
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 13px 9px 24px;
+    border: 1px solid var(--white-color);
+    max-width: 380px;
+    min-width: 260px;
+    margin-right: 0;
+  }
+
+  .btn_popup_text {
+    display: block;
+    font-size: 14px;
+    margin-right: 0;
+  } 
+}
+
+@media (max-width: 1400px) {
+  body::after {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url('../img/mentor.png');
+    background-size:  auto 80%;
+    background-repeat: no-repeat;
+    background-position: right -11% bottom;
+    z-index: -1;
+  }
+
+  .header__container {
+    margin-bottom: 120px;
+  }
+    
+  .nav__list {
+    display: none;
+  }
+   
+  .nav__btns {
+    display: flex;
+  }
+
+  .menu-close {
+    display: block;
+    margin-right: 10px;
+    border: none;
+  }
+
+  .basis__h1 {
+    margin: 0;
+    margin-bottom: 53px;
+    max-width: 650px;
+    text-transform: uppercase;
+    font-size: 65px;
+    font-weight: 600;
+    color: var(--white-color);
+  }
+
+  .basis__quote {
+    max-width: 600px;
+  }
+
+  .basis__btns {
+    display: block;
+  }
+
+  .basis__btn {
+    width: 39.3%;
+  }
+
+  .basis__btn:not(:last-child) {
+    margin-bottom: 16px;
+  }
+
+  .btn_two {
+    position: relative;
+    left: auto;
+  }
+}
+
+@media (max-width: 1200px) {
+  .basis__quote {
+    display: none;
+  }
+
+  .basis__quote_mini {
+    display: block;
+    color: var(--white-color); 
+    max-width: 675px;
+    padding-left: 24px;
+    border-left: 1px solid var(--white-color);
+    align-items: center;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 64px;
+    opacity: 0.5;
+  }
+}
+ 
+@media (max-width: 1000px) {
+  body::after {
+    background-position: right -7% bottom;
+  }
+
+  .basis__h1 {
+    font-size: 40px;
+    max-width: 400px;
+    margin-bottom: 35px;
+  }
+
+  .basis__quote_mini {
+    padding-left: 8px;
+    max-width: 160px;
+  }
+
+  .form_input:first-child {
+    margin-bottom: 44px;
+  }
+
+  .basis__btns {
+    margin-bottom: 92px;
+  }
+
+  .close_svg {
+    width: 20px;
+    height: 20px;
+    fill: none;
+    background: none;
+  }
+
+  .nav__btns_svg {
+    fill: none;
+    background: none;
+  }
+
+  .popup {
+    min-width: 320px;
+  }
+
+  .popup-content {
+    padding: 96px 34px 0px 34px;
+  }
+
+  .popup_h2 {
+    font-size: 30px;
+  }
+
+  .form_input {
+    font-size: 14px;
+  }
+
+  .checkbox-text {
+    font-size: 14px;
+    padding-left: 30px;
+  }
+
+  .checkbox-text::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 15px;
+    height: 15px;
+    border: 1px solid var(--white-color);
+    opacity: 0.5;
+    padding: 0;
+  }
+
+  .checkbox-text::after {
+    content: '';
+    position: absolute;
+    left: 4px;
+    top: 4px;
+    width: 10px;
+    height: 10px;
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    background-image: url(/img/checked.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 10px;
+  }
+
+  .thankYou_header {
+    font-size: 30px;
+  }
+
+  .thankYou_description {
+    font-size: 18px;
+  }
+
+  .thankYou_logo_img {
+    margin-bottom: 10px;
+    margin-right: 10px;
+    width: 96px;
+  }
+  
+  .thankYou_logo {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+
+  .blok__number {
+    font-size: 27px;
+    margin-bottom: 15px;
+  }
+
+  .coints__blok {
+    margin: 0;
+    padding-left: 8px;
+    max-width: 140px;
+  }
+
+  .btn_text__mini {
+    font-size: 14px;
+    margin-right: 5px;
+  }
+}
+
+@media (max-width: 700px) {
+
+  body::after {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url('../img/mentor.png');
+    background-size:  auto 80%;
+    background-repeat: no-repeat;
+    background-position: right -30% bottom;
+    z-index: -1; /* Установка z-index для размещения изображения под остальным контентом */
+  }
+
+  .header__container {
+    margin-bottom: 65px;
+  }
+
+  .call__number {
+    display: none;
+  }
+
+  .basis__quote_mini {
+    margin-bottom: 50px;
+  }
+
+  .basis__btn {
+    padding: 9px 5px 0px 5px;
+  }
+
+  .btn_img {
+    margin-left: 20px;
+  }
+
+  .btn_svg {
+    width: 10px;
+    height: 10px;
+  }
+
+  .popup_btn_svg {
+    width: 17px;
+    height: 17px;
+  }
+
+  .thankYou_logo {
+    position: absolute;
+    bottom: 130px;
+    right: 0;
+  }
+
+  .btn_text__mini {
+    font-size: 8px;
+    margin-right: 17px;
+    margin-bottom: 8px;
+  }
+
+  .blok__text {
+    display: none;
+  }
+
+  .blok__text_mini {
+    display: block;
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--white-color);
+    opacity: 0.5;
+  }  
+}
+
+@media (max-width: 450px) {
+   
+  body::after {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url('../img/mentor.png');
+    background-size:  auto 90%;
+    background-repeat: no-repeat;
+    background-position: right -100% bottom;
+    z-index: -1;
+  }
+
+  .logo {
+    height: 19px;
+  }
+
+  .logo__img {
+    height: 19px;
+  }
+  .nav__icon {
+    margin-right: 0;
+  }
+
+  .nav__btns_svg {
+    width: 30px;
+    height: 30px;
+  }
+
+  .basis__h1 {
+    font-size: 25px;
+    max-width: 252px;
+  }
+
+  .basis__quote_mini {
+    font-size: 11px;
+  }
+
+  .btn_text__mini {
+    font-size: 10px;
+  }
+
+  .btn_svg {
+    width: 8px;
+    height: 8px;
+  }
+
+  .popup_h2 {
+    font-size: 20px;
+  }
+
+  .form_input {
+    font-size: 12px;
+  }
+
+  .checkbox-text {
+    font-size: 12px;
+    padding-left: 30px;
+  } 
+
+  .blok__number {
+    font-size: 16px;
+    margin-bottom: 4px;
+  }
+  
+  .blok__text_mini {
+    font-style: 10px;
+  }
+}
+
+@media (max-width: 400px) {
+   
+  body::after {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url('../img/mentor.png');
+    background-size:  auto 90%;
+    background-repeat: no-repeat;
+    background-position: right -120px bottom;
+    z-index: -1;
+  }
+}
